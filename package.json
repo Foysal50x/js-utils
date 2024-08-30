@@ -1,0 +1,32 @@
+{
+  "name": "@0x26e/ts-utils",
+  "version": "1.0.0",
+  "description": "A TypeScript Utility Collection Similar to Laravel Helpers",
+  "keywords": [
+    "utils",
+    "typescript",
+    "helpers"
+  ],
+  "homepage": "https://github.com/Foysal50x/ts-utils",
+  "bugs": {
+    "url": "https://github.com/Foysal50x/ts-utils/issues"
+  },
+  "author": "Foysal Ahmed <foysal20x@gmail.com> (https://github.com/Foysal50x)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foysal50x/ts-utils.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
