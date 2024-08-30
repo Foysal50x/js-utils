@@ -1,4 +1,4 @@
-import {usleep} from './usleep';
+import { usleep } from './usleep';
 
 /**
  * Pauses the execution for a specified number of seconds.
