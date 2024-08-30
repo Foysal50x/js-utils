@@ -1,5 +1,11 @@
 # @0x26e/utils
 
+## 1.0.4
+
+### Patch Changes
+
+- 1d8b761: Added: usleep(), sleep() and until() func
+
 ## 1.0.3
 
 ### Patch Changes
