@@ -1,5 +1,11 @@
 # @0x26e/utils
 
+## 1.0.2
+
+### Patch Changes
+
+- 9e6455a: Add blank() and tap() func
+
 ## 1.0.1
 
 ### Patch Changes
