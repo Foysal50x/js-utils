@@ -1,6 +1,6 @@
 {
   "name": "@0x26e/utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript Utility Collection Similar to Laravel Helpers",
   "keywords": [
     "utils",
