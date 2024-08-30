@@ -4,3 +4,4 @@ export * from './tap.js';
 export * from './usleep.js';
 export * from './sleep.js';
 export * from './until.js';
+export * from './pagination.js';
