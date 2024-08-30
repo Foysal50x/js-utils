@@ -1,5 +1,5 @@
 {
-  "name": "@0x26e/ts-utils",
+  "name": "@0x26e/utils",
   "version": "1.0.0",
   "description": "A TypeScript Utility Collection Similar to Laravel Helpers",
   "keywords": [
@@ -7,15 +7,15 @@
     "typescript",
     "helpers"
   ],
-  "homepage": "https://github.com/Foysal50x/ts-utils",
+  "homepage": "https://github.com/Foysal50x/js-utils",
   "bugs": {
-    "url": "https://github.com/Foysal50x/ts-utils/issues"
+    "url": "https://github.com/Foysal50x/js-utils/issues"
   },
   "author": "Foysal Ahmed <foysal20x@gmail.com> (https://github.com/Foysal50x)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Foysal50x/ts-utils.git"
+    "url": "git+https://github.com/Foysal50x/js-utils.git"
   },
   "files": [
     "dist"
