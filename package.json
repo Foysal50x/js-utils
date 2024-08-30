@@ -25,6 +25,7 @@
   "scripts": {
     "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint",
     "build": "tsup",
+    "test": "vitest run",
     "lint": "tsc",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
@@ -41,6 +42,7 @@
     "@arethetypeswrong/cli": "^0.15.4",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   }
 }
