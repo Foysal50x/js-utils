@@ -6,3 +6,5 @@ export * from './sleep.js';
 export * from './until.js';
 export * from './pagination.js';
 export * from './clamp.js';
+export * from './get.js';
+export * from './set.js';
