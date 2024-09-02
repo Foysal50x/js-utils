@@ -42,6 +42,9 @@ npm install @0x26e/utils
 [blank](#method-blank)
 [sleep](#method-sleep)
 [usleep](#method-usleep)
+[tap](#method-tap)
+[until](#method-until)
+[clamp](#method-clamp)
 
 </div>
 
@@ -103,4 +106,46 @@ Pauses the execution for a specified number of milliseconds.
 
 ```typescript
 await usleep(500); // Pauses execution for 500 milliseconds.
+```
+
+<a name="method-tap"></a>
+
+#### `tap()`
+
+Invokes an interceptor function with a provided value and returns the result.
+
+```typescript
+const tappedValue = tap(5, (n) => n * 2); // tappedValue = 10
+```
+
+<a name="method-until"></a>
+
+#### `until()`
+
+Continuously attempts a function until a condition is met.
+
+```typescript
+const result = await until(
+  () => isConditionTrue(),
+  () => fetchData(),
+  2,
+);
+```
+
+<a name="method-clamp"></a>
+
+#### `clamp()`
+
+Returns a value clamped to the inclusive range of min and max. This function ensures that the `value` falls within the specified range. If the `value`
+is less than `min`, it returns `min`. If the `value` is greater than `max`, it returns `max`.
+Otherwise, it returns the `value` itself.
+
+```typescript
+const clamped1 = clamp(5, 1, 10);
+console.log(clamped1); // 5
+
+const clamped2 = clamp(15, 1, 10);
+console.log(clamped2); // 10 (since 15 is greater than max 10)
+const clamped3 = clamp(-5, 1, 10);
+console.log(clamped3); // 1 (since -5 is less than min 1)
 ```
