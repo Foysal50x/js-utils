@@ -60,7 +60,7 @@ console.log(result);
 
 #### `toCssClasses()`
 
-The toCssClasses function conditionally compiles a CSS class string. The method accepts an object of classes where the object key contains the class or classes you wish to add, while the value is a boolean expression. If the object key has a numeric key, it will always be included in the rendered class list:
+The toCssClasses function conditionally compiles a CSS class string. The method accepts an array of classes (class can be string or object) where the object key contains the class or classes you wish to add, while the value is a boolean expression. If the object key has a numeric key, it will always be included in the rendered class list:
 
 ```typescript
 const isActive = false;
