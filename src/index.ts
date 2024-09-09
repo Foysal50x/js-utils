@@ -8,3 +8,4 @@ export * from './pagination.js';
 export * from './clamp.js';
 export * from './get.js';
 export * from './set.js';
+export * from './toCssClasses.js';
