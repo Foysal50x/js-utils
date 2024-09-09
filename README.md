@@ -10,7 +10,6 @@ npm install @0x26e/utils
 
 ## Available Methods
 
-
 <a name="arrays-and-objects-method-list"></a>
 
 ### Arrays & Objects
@@ -66,7 +65,10 @@ The toCssClasses function conditionally compiles a CSS class string. The method 
 ```typescript
 const isActive = false;
 const hasError = true;
-const classes = toCssClasses(['p-4', { 'font-bold': isActive, 'bg-red': hasError }]);
+const classes = toCssClasses([
+  'p-4',
+  { 'font-bold': isActive, 'bg-red': hasError },
+]);
 console.log(classes);
 // Output: 'p-4 bg-red'
 ```
