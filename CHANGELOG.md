@@ -1,5 +1,11 @@
 # @0x26e/utils
 
+## 1.0.5
+
+### Patch Changes
+
+- a0bf7ef: added toCssClasses() update readme
+
 ## 1.0.4
 
 ### Patch Changes
