@@ -1,4 +1,4 @@
-import { sleep } from './sleep';
+import { sleep } from './sleep.js';
 
 /**
  * Continuously attempts a function until a condition is met.
