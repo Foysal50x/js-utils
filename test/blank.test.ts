@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { blank } from '../src/blank';
+import { blank } from '../src';
 
 test("blank('')", () => {
   expect(blank('')).toBe(true);

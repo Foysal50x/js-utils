@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { sleep } from '../src/sleep';
+import { sleep } from '../src';
 
 test('should resolve after the specified seconds', async () => {
   const start = Date.now();

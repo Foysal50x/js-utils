@@ -1,5 +1,5 @@
 import { test, expect } from 'vitest';
-import { until } from '../src/until';
+import { until } from '../src';
 
 test('should resolve with the result of the attempt function when condition is met', async () => {
   let counter = 0;
