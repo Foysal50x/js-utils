@@ -10,18 +10,6 @@ npm install @0x26e/utils
 
 ## Available Methods
 
-<style>
-    .collection-method-list > p {
-        columns: 10.8em 3; -moz-columns: 10.8em 3; -webkit-columns: 10.8em 3;
-    }
-
-    .collection-method-list a {
-        display: block;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-</style>
 
 <a name="arrays-and-objects-method-list"></a>
 
@@ -30,6 +18,10 @@ npm install @0x26e/utils
 <div class="collection-method-list" markdown="1">
 
 [crossJoin](#method-array-crossJoin)
+
+<div class="collection-method-list" markdown="1">
+
+[toCssClasses](#method-object-toCssClasses)
 
 </div>
 
@@ -63,6 +55,20 @@ The Cartesian product of multiple sets is a set of all possible combinations whe
 const result = crossJoin([1, 2], ['a', 'b']);
 console.log(result);
 // Output: [[1, 'a'], [1, 'b'], [2, 'a'], [2, 'b']]
+```
+
+<a name="method-object-toCssClasses"></a>
+
+#### `toCssClasses()`
+
+The toCssClasses function conditionally compiles a CSS class string. The method accepts an object of classes where the object key contains the class or classes you wish to add, while the value is a boolean expression. If the object key has a numeric key, it will always be included in the rendered class list:
+
+```typescript
+const isActive = false;
+const hasError = true;
+const classes = toCssClasses(['p-4', { 'font-bold': isActive, 'bg-red': hasError }]);
+console.log(classes);
+// Output: 'p-4 bg-red'
 ```
 
 <a name="miscellaneous"></a>
